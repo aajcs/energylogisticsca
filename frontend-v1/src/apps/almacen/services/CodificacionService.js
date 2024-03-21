@@ -2,11 +2,11 @@ import axios from 'axios'
 
 export class CodificacionService {
   // baseUrl = "http://localhost:8080/api/Codificacions/";
-  // baseUrl = '  https://apimaroil.herokuapp.com/api/'
-  // baseUrl = "https://apimaroil.herokuapp.com/api/";
+  // baseUrl = '  http://localhost:4000/api/'
+  // baseUrl = "http://localhost:4000/api/";
   // baseUrl = "https://hg-rest-api.herokuapp.com/api/Codificacions/";
-  baseUrl = 'https://apimaroil.herokuapp.com/api/'
-  // baseUrl = 'https://apimaroil.herokuapp.com/api/'
+  baseUrl = 'http://localhost:4000/api/'
+  // baseUrl = 'http://localhost:4000/api/'
 
   readAll(token) {
     const config = {

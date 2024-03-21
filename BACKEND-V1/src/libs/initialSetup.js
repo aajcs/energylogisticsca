@@ -10,8 +10,8 @@ const createAdmin = async () => {
     await Usuario.create({
       nombre: 'Super Admin',
       correo: 'admin@localhost',
-      user: 'admin',
-      password: await bcrypy.hash('admin', 10),
+      user: 'superadmin',
+      password: await bcrypy.hash('15935789', 10),
       roles: ['SUPERADMIN'],
       apps: ['SUPERAPPS']
     })

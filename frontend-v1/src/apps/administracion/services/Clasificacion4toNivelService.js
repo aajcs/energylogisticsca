@@ -2,11 +2,11 @@ import axios from 'axios'
 
 export class Clasificacion4toNivelService {
   // baseUrl = "http://localhost:8080/api/Clasificacion4toNivels/";
-  // baseUrl = '  https://apimaroil.herokuapp.com/api/'
+  // baseUrl = '  http://localhost:4000/api/'
   // baseUrl = "http://10.20.40.159:4000/api/";
   // baseUrl = "https://hg-rest-api.herokuapp.com/api/Clasificacion4toNivels/";
-  baseUrl = 'https://apimaroil.herokuapp.com/api/'
-  // baseUrl = 'https://apimaroil.herokuapp.com/api/'
+  baseUrl = 'http://localhost:4000/api/'
+  // baseUrl = 'http://localhost:4000/api/'
 
   readAll(token) {
     const config = {
