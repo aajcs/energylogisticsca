@@ -2,10 +2,10 @@ import axios from 'axios'
 
 export class UsuarioService {
   // baseUrl = "http://localhost:8080/api/usuarios/";
-  // baseUrl = '  http://localhost:4000/api/'
-  baseUrl = 'http://localhost:4000/api/'
-  // baseUrl = 'http://localhost:4000/api/'
-  // baseUrl = "http://localhost:4000/api/"
+  // baseUrl = '  https://energylogisticsca-3dd928fa7453.herokuapp.com/api/'
+  baseUrl = 'https://energylogisticsca-3dd928fa7453.herokuapp.com/api/'
+  // baseUrl = 'https://energylogisticsca-3dd928fa7453.herokuapp.com/api/'
+  // baseUrl = "https://energylogisticsca-3dd928fa7453.herokuapp.com/api/"
   // baseUrl = "https://hg-rest-api.herokuapp.com/api/usuarios/";
 
   readAll(token) {

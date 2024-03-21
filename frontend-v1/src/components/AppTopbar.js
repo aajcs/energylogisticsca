@@ -75,7 +75,7 @@ export const AppTopbar = (props) => {
       <Link to="/" className="layout-topbar-logo">
         <img src={logo2023Plateado} alt="logo" />
 
-        <span>Maroil Trading System</span>
+        <span>Energy Logistics</span>
       </Link>
 
       <button

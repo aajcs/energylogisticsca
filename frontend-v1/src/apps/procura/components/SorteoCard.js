@@ -5,7 +5,7 @@ import { GanadorContext } from '../contexts/GanadorContext'
 import SorteoCardRender from './SorteoCardRender'
 import { Button } from 'primereact/button'
 import { Tag } from 'primereact/tag'
-import logomaroil from '../../../assets/logomaroil.png'
+import logoEnergy from '../../../assets/logoEnergy.png'
 const SorteoCard = () => {
   const initialGanadorForm = {
     id: null,
@@ -150,7 +150,7 @@ const SorteoCard = () => {
           {!loading1 && ganadorFinal.length !== 0 && (
             <>
               <img
-                src={logomaroil}
+                src={logoEnergy}
                 height="100px"
                 alt="logo"
                 style={{
@@ -183,7 +183,7 @@ const SorteoCard = () => {
           {!loading1 && ganadorFinal.length === 0 && (
             <>
               <img
-                src={logomaroil}
+                src={logoEnergy}
                 height="100px"
                 alt="logo"
                 style={{

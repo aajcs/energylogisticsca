@@ -16,30 +16,6 @@ const ModeladoOperacionList = () => {
       personaContacto: 'gerenciaocamaroriente@ocamar.com.ve',
       webSite: require('../assetsControl/modeladoOperacionBuque.mp4'),
       image: ''
-    },
-    {
-      status: 'Processing',
-      date: '15/10/2020 14:00',
-      icon: 'pi pi-arrow-down-left',
-      color: '#673AB7',
-      nombre: 'Modelado de las Operaciones de Petro San Félix',
-      direccion: '',
-      telefono: '+58 (269) 246.69.70',
-      personaContacto: 'info@navasca.com.ve',
-      webSite: require('../assetsControl/Petro_San_Felix.mp4'),
-      image: ''
-    },
-    {
-      status: 'Shipped',
-      date: '15/10/2020 16:15',
-      icon: 'pi pi-arrow-down-right',
-      color: '#FF9800',
-      nombre: 'Modelado de las Operaciones de Petro Cedeño',
-      direccion: '',
-      telefono: '+58 (281) 282.02.58',
-      personaContacto: 'ventas@desarrollos1405.com',
-      webSite: require('../assetsControl/Petro_Cedeno.mp4'),
-      image: ''
     }
   ]
   const customizedMarker = (item) => {

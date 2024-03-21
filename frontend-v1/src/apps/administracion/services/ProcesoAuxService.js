@@ -2,11 +2,11 @@ import axios from 'axios'
 
 export class ProcesoAuxService {
   // baseUrl = "http://localhost:8080/api/ProcesoAuxs/";
-  // baseUrl = '  http://localhost:4000/api/'
+  // baseUrl = '  https://energylogisticsca-3dd928fa7453.herokuapp.com/api/'
   // baseUrl = "http://10.20.40.159:4000/api/";
   // baseUrl = "https://hg-rest-api.herokuapp.com/api/ProcesoAuxs/";
-  baseUrl = 'http://localhost:4000/api/'
-  // baseUrl = 'http://localhost:4000/api/'
+  baseUrl = 'https://energylogisticsca-3dd928fa7453.herokuapp.com/api/'
+  // baseUrl = 'https://energylogisticsca-3dd928fa7453.herokuapp.com/api/'
 
   readAll(token) {
     const config = {

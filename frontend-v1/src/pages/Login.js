@@ -6,7 +6,7 @@ import { InputText } from 'primereact/inputtext'
 import AuthUse from '../auth/AuthUse'
 import login from '../service/loginService'
 import { Toast } from 'primereact/toast'
-import logomaroil from '../assets/logomaroil.png'
+import logoEnergy from '../assets/logoEnergy.png'
 
 export default function Login() {
   const toast = useRef(null)
@@ -52,7 +52,7 @@ export default function Login() {
         <div className="surface-card p-4 shadow-2 border-round w-full  lg:w-4   ">
           <form onSubmit={handleLogin}>
             <div className="text-center mb-5">
-              <img src={logomaroil} height="100px" alt="logo" />
+              <img src={logoEnergy} height="100px" alt="logo" />
               <div className="text-900 text-6xl font-medium mb-3">
                 Bienvenido
               </div>
